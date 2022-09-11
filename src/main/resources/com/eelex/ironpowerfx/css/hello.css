@@ -1,0 +1,47 @@
+#background-panel {
+    -fx-background-color: linear-gradient(to left top, #9FFFCB, #25A18E);
+}
+
+#holder-panel {
+    -fx-background-color:  #004e64;
+}
+
+.text-area{
+    -fx-background-color: #9FFFCB;
+    -fx-text-fill:#004e64;
+}
+
+.text-area .content{
+    -fx-background-color: #9FFFCB;
+}
+
+.text-field {
+    
+    -fx-background-color: #9FFFCB ;
+    -fx-text-fill: #004e64
+}
+
+.text-field:focus {
+    -fx-background-color:#25A18E;
+}
+
+.button {
+    -fx-background-color:#004e64;
+    -fx-border-style: solid;
+    -fx-border-color: #004e64;
+    -fx-border-width: 2;
+}
+
+.button:hover{
+    -fx-background-color:#9FFFCB;
+    -fx-text-fill: #004e64;
+}
+
+.table-view {
+    -fx-background-color:#004e64;
+}
+
+.line-chart {
+    -fx-background-color:#004e64;
+}
+

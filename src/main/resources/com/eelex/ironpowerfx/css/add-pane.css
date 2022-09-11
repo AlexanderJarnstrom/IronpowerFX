@@ -1,0 +1,55 @@
+#background-pane{
+    -fx-background-color: #004e64;
+}
+
+.button {
+    -fx-background-color:#004e64;
+    -fx-border-style: solid;
+    -fx-border-color: #9FFFCB;
+    -fx-border-width: 2;
+    -fx-text-fill: #9FFFCB;
+    -fx-font-size: 22;
+}
+
+.button:hover{
+    -fx-background-color:#9FFFCB;
+    -fx-text-fill: #004e64;
+}
+
+.label {
+    -fx-text-fill: #9FFFCB;
+    -fx-font-size: 20;
+}
+
+#error-text {
+    -fx-text-fill: red;
+    -fx-font-size: 20;
+}
+
+#header {
+    -fx-text-fill: #9FFFCB;
+    -fx-font-size: 26;
+
+}
+
+
+.text-area{
+    -fx-background-color: #9FFFCB;
+    -fx-text-fill:#004e64;
+}
+
+.text-area .content{
+    -fx-background-color: #9FFFCB;
+}
+
+.text-field {
+    -fx-font-size:20;
+    -fx-background-color: #9FFFCB ;
+    -fx-text-fill: #004e64
+}
+
+.choice-box {
+    -fx-font-size:20;
+    -fx-background-color: #9FFFCB ;
+    -fx-text-fill: #004e64
+}

@@ -1,0 +1,55 @@
+#background-panel {
+    -fx-background-color: linear-gradient(to left top, #9FFFCB, #25A18E);
+    -fx-border-color: #004e64;
+}
+
+#holder-panel {
+    -fx-background-color: #004e64;
+    -fx-effect: dropshadow(gaussian, black, 7, 10%, 0, 0);
+}
+
+#check-box .box{
+    -fx-background-color: #9FFFCB;
+}
+
+#check-box:selected .mark {
+    -fx-background-color: #004e64;
+}
+
+#tf-error {
+    -fx-background-color: #7E191B;
+    -fx-text-fill: #FF0800;
+}
+
+.button {
+    -fx-background-color:#004e64;
+    -fx-border-style: solid;
+    -fx-border-color: #9FFFCB;
+    -fx-border-width: 2;
+    -fx-text-fill: #9FFFCB;
+    -fx-font-size: 18;
+}
+
+.button:hover{
+    -fx-background-color:#9FFFCB;
+    -fx-text-fill: #004e64;
+}
+
+.text-area{
+    -fx-background-color: #9FFFCB;
+    -fx-text-fill:#004e64;
+}
+
+.text-area .content{
+    -fx-background-color: #9FFFCB;
+}
+
+.text-field {
+    
+    -fx-background-color: #9FFFCB ;
+    -fx-text-fill: #004e64
+}
+
+.text-field:focus {
+    -fx-background-color:#25A18E;
+}

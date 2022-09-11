@@ -1,0 +1,8 @@
+.bar{
+    -fx-background-color: linear-gradient(to right, #004e64, #25A18E);
+}
+
+.track {
+  -fx-text-box-border: #004e64;
+  -fx-control-inner-background: #004e64;
+}
